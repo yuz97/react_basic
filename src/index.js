@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
-import Latihan1 from './Latihan1';
+// import './index.css';
+import App from './App';
+// import Latihan1 from './Latihan1';
 import reportWebVitals from './reportWebVitals';
 
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Latihan1 />
+    {/* <Latihan1 /> */}
+    <App />
   </React.StrictMode>
 );
 
