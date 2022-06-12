@@ -1,0 +1,362 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "makanan"
+    },
+    {
+      "id": 2,
+      "nama": "minuman"
+    },
+    {
+      "id": 3,
+      "nama": "cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "A1",
+      "nama": "Bakso Bakar",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "bakso_bakar.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "B2",
+      "nama": "Ayam Crispy",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "ayam_crispy.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "C3",
+      "nama": "Nasi Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasgor.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "D4",
+      "nama": "Susu Jahe Merah",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "sujamer.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "E5",
+      "nama": "Teh Manis",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "teh.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "A2",
+      "nama": "Sarabba",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "sarabba.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "A3",
+      "nama": "Kopi Susu",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "kopi_susu.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "C1",
+      "nama": "Donat",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "donut.jpeg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "C6",
+      "nama": "Jalangkote",
+      "harga": 2500,
+      "is_ready": true,
+      "gambar": "jalangkote.jpeg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "C7",
+      "nama": "Ubi Goreng",
+      "harga": 1300,
+      "is_ready": true,
+      "gambar": "ubi.jpeg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "D1",
+      "nama": "Coto Makassar",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "coto_makassar.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "D2",
+      "nama": "Mie Bakso",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "mie_bakso.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "D3",
+      "nama": "Rendang",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "rendang.jpeg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "D5",
+      "nama": "sarabba",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "sarabba.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "E1",
+      "nama": "Tahu Goreng",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "tahu.jpeg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 3,
+      "total_harga": 15000,
+      "product": {
+        "id": 6,
+        "kode": "A2",
+        "nama": "Sarabba",
+        "harga": 5000,
+        "is_ready": true,
+        "gambar": "sarabba.jpeg",
+        "category": {
+          "id": 2,
+          "nama": "minuman"
+        }
+      },
+      "id": 8
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 3000,
+      "product": {
+        "id": 5,
+        "kode": "E5",
+        "nama": "Teh Manis",
+        "harga": 3000,
+        "is_ready": true,
+        "gambar": "teh.jpeg",
+        "category": {
+          "id": 2,
+          "nama": "minuman"
+        }
+      },
+      "id": 10
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 14000,
+      "product": {
+        "id": 14,
+        "kode": "D5",
+        "nama": "sarabba",
+        "harga": 7000,
+        "is_ready": true,
+        "gambar": "sarabba.jpeg",
+        "category": {
+          "id": 2,
+          "nama": "minuman"
+        }
+      },
+      "id": 11
+    },
+    {
+      "jumlah": 4,
+      "total_harga": 10000,
+      "product": {
+        "id": 9,
+        "kode": "C6",
+        "nama": "Jalangkote",
+        "harga": 2500,
+        "is_ready": true,
+        "gambar": "jalangkote.jpeg",
+        "category": {
+          "id": 3,
+          "nama": "cemilan"
+        }
+      },
+      "id": 12
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 2600,
+      "product": {
+        "id": 10,
+        "kode": "C7",
+        "nama": "Ubi Goreng",
+        "harga": 1300,
+        "is_ready": true,
+        "gambar": "ubi.jpeg",
+        "category": {
+          "id": 3,
+          "nama": "cemilan"
+        }
+      },
+      "id": 13
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 10000,
+      "product": {
+        "id": 2,
+        "kode": "B2",
+        "nama": "Ayam Crispy",
+        "harga": 10000,
+        "is_ready": true,
+        "gambar": "ayam_crispy.jpeg",
+        "category": {
+          "id": 1,
+          "nama": "makanan"
+        }
+      },
+      "id": 14
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 1000,
+      "product": {
+        "id": 8,
+        "kode": "C1",
+        "nama": "Donat",
+        "harga": 1000,
+        "is_ready": true,
+        "gambar": "donut.jpeg",
+        "category": {
+          "id": 3,
+          "nama": "cemilan"
+        }
+      },
+      "id": 15
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 1000,
+      "product": {
+        "id": 15,
+        "kode": "E1",
+        "nama": "Tahu Goreng",
+        "harga": 1000,
+        "is_ready": true,
+        "gambar": "tahu.jpeg",
+        "category": {
+          "id": 3,
+          "nama": "cemilan"
+        }
+      },
+      "id": 16
+    }
+  ],
+  "pesanan": [
+    {
+      "total_bayar": 12000,
+      "menus": [
+        {
+          "jumlah": 4,
+          "total_harga": 12000,
+          "product": {
+            "id": 5,
+            "kode": "E5",
+            "nama": "Teh Manis",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "teh.jpeg",
+            "category": {
+              "id": 2,
+              "nama": "minuman"
+            }
+          },
+          "keterangan": "sedikit gula",
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
